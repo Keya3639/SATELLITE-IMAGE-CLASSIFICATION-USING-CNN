@@ -31,104 +31,81 @@ The application is built as a Streamlit web app, making it simple, fast, and use
 
 ## Why These Tools Were Selected
 
-CNNs are highly effective for image recognition tasks.
-
-TensorFlow provides fast model loading and prediction.
-
-Streamlit makes deployment easy without complex backend code.
-
-Plotly + Matplotlib give clear visual interpretation of predictions.
-
-NumPy + Pandas simplify preprocessing and data handling.
-
+- CNNs are highly effective for image recognition tasks.
+- TensorFlow provides fast model loading and prediction.
+- Streamlit makes deployment easy without complex backend code.
+- Plotly + Matplotlib give clear visual interpretation of predictions.
+- NumPy + Pandas simplify preprocessing and data handling.
+- 
 Together, these tools create a smooth, educational, and interactive AI application.
 
 ## Features
 
-Upload satellite image and classify instantly
-
-Shows Top-2 most probable predictions
-
-Probability bar graph for Top-5 classes
-
-Confidence gauge for Top-1 prediction
-
-Visual preview of resized model input (64×64)
-
-Random sample prediction from test dataset
-
-CNN feature-map visualization (first convolution layer)
-
-Clean and intuitive UI
+- Upload satellite image and classify instantly
+- Shows Top-2 most probable predictions
+- Probability bar graph for Top-5 classes
+- Confidence gauge for Top-1 prediction
+- Visual preview of resized model input (64×64)
+- Random sample prediction from test dataset
+- CNN feature-map visualization (first convolution layer)
+- Clean and intuitive UI
 
 ## How It Works
 
- User uploads an image (JPG / PNG).
+ - User uploads an image (JPG / PNG).
 
-Image is resized to 64×64 and normalized.
+- Image is resized to 64×64 and normalized.
 
-CNN model generates predictions.
+- CNN model generates predictions.
 
-System extracts:
+- System extracts:
 
-Top-2 predictions
+     - *Top-2 predictions*
 
-Top-5 probabilities
+     - *Top-5 probabilities*
 
-Feature maps from the first CNN layer are visualized to show how the model “sees” patterns.
+- Feature maps from the first CNN layer are visualized to show how the model “sees” patterns.
 
-Confidence gauge displays how strongly the model believes the top result.
+- Confidence gauge displays how strongly the model believes the top result.
 ## Advantages
 
-Automates satellite land-use identification
-
-Supports visual insights through feature maps
-
-Easy-to-use web interface
-
-No retraining required — model loads instantly
-
-Helps learning and research in remote sensing and AI
-
-Works well even on basic systems
+- Automates satellite land-use identification
+- Supports visual insights through feature maps
+- Easy-to-use web interface
+- No retraining required — model loads instantly
+- Helps learning and research in remote sensing and AI
+- Works well even on basic systems
+  
 ## Limitations
 
 - Predictions depend on training dataset quality
+- Model may confuse visually similar classes
+- Requires GPU/CPU for smooth performance with larger inputs
+- Only supports EuroSAT-like satellite images
+- Not suitable for critical decision-making (scientific validation needed)
 
-Model may confuse visually similar classes
-
-Requires GPU/CPU for smooth performance with larger inputs
-
-Only supports EuroSAT-like satellite images
-
-Not suitable for critical decision-making (scientific validation needed)
 ## Real-Time Applications
 
-Urban planning: Monitor land-use growth
+- **Urban planning:** Monitor land-use growth
 
-Agriculture: Identify farmland and crop areas
+- **Agriculture:** Identify farmland and crop areas
 
-Environmental research: Track deforestation and land change
+- **Environmental research:** Track deforestation and land change
 
-Disaster monitoring: Analyze flood or fire-affected regions
+- **Disaster monitoring:** Analyze flood or fire-affected regions
 
-Education: Teach CNNs and satellite vision concepts
+- **Education:** Teach CNNs and satellite vision concepts
+  
 ## Future Enhancements
 
 - Support multiple datasets
-
-Add Grad-CAM heatmap visualization
-
-Enable batch image uploads
-
-Improve model accuracy with fine-tuning
-
-Allow image downloads with prediction overlay
-
-Deploy on cloud platforms
-
-Add training pipeline for retraining with new data
-
+- Add Grad-CAM heatmap visualization
+- Enable batch image uploads
+- Improve model accuracy with fine-tuning
+- Allow image downloads with prediction overlay
+- Deploy on cloud platforms
+- Add training pipeline for retraining with new data
+  
 ## Conclusion
 
 The Satellite Image Classification System demonstrates the real power of CNNs in remote sensing.
@@ -136,7 +113,7 @@ By combining deep learning with an interactive web interface, it makes satellite
 With continued improvements, this project can evolve into a powerful land-use monitoring and research tool.
 
 ## OUTPUT:
-<img width="818" height="492" alt="Image" src="https://github.com/user-attachments/assets/0f24374c-d9eb-4e7a-b46a-adc4869dc0b0" />
+<img width="818" height="700" alt="Image" src="https://github.com/user-attachments/assets/0f24374c-d9eb-4e7a-b46a-adc4869dc0b0" />
 <img width="522" height="760" alt="Image" src="https://github.com/user-attachments/assets/412e0660-9391-4155-8993-650913c85bad" />
 <img width="693" height="681" alt="Image" src="https://github.com/user-attachments/assets/507aa9bb-9a2c-4399-ab5f-b3fda3d3d2d8" />
 <img width="693" height="812" alt="Image" src="https://github.com/user-attachments/assets/14d7e678-62e5-4b23-9b98-730f2955c8b6" />
