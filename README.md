@@ -136,5 +136,10 @@ By combining deep learning with an interactive web interface, it makes satellite
 With continued improvements, this project can evolve into a powerful land-use monitoring and research tool.
 
 ## OUTPUT:
-
+<img width="818" height="492" alt="Image" src="https://github.com/user-attachments/assets/0f24374c-d9eb-4e7a-b46a-adc4869dc0b0" />
+<img width="522" height="760" alt="Image" src="https://github.com/user-attachments/assets/412e0660-9391-4155-8993-650913c85bad" />
+<img width="693" height="681" alt="Image" src="https://github.com/user-attachments/assets/507aa9bb-9a2c-4399-ab5f-b3fda3d3d2d8" />
+<img width="693" height="812" alt="Image" src="https://github.com/user-attachments/assets/14d7e678-62e5-4b23-9b98-730f2955c8b6" />
+<img width="773" height="785" alt="Image" src="https://github.com/user-attachments/assets/32902829-414e-4f07-93de-c5667e5e0fee" />
+<img width="672" height="790" alt="Image" src="https://github.com/user-attachments/assets/4d827fa6-9398-4af8-bb42-f56a6124b549" />
 
